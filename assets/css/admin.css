@@ -1,23 +1,10 @@
-/**
- * Smart Discount Rules - Admin Styles
- *
- * @package Woo_Smart_Discounts
- */
-
-.wsd-config-table th {
-    width: 180px;
-    padding: 12px 10px;
-}
-
-.wsd-config-table td {
-    padding: 12px 10px;
-}
-
-.wsd-config-table .description {
-    font-style: italic;
-    color: #666;
-}
-
-.wsd-field {
-    display: none;
-}
+/* Smart Discount Rules Admin Styles */
+.wsd-field { margin-bottom: 15px; }
+.wsd-field label { display: block; font-weight: 600; margin-bottom: 5px; }
+.wsd-field input, .wsd-field select { width: 100%; max-width: 400px; }
+.wsd-field select[multiple] { height: 120px; }
+.wsd-row { display: flex; gap: 20px; flex-wrap: wrap; }
+.wsd-row .wsd-field { flex: 1; min-width: 200px; }
+.wsd-section { background: #f9f9f9; padding: 15px; border-radius: 5px; margin-bottom: 15px; border: 1px solid #ddd; }
+.wsd-section h4 { margin: 0 0 10px; }
+.wsd-discount-row th, .wsd-discount-row td { color: #46b450; }

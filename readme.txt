@@ -1,6 +1,6 @@
 === Smart Discount Rules for WooCommerce ===
 Contributors: tinyshipai
-Tags: woocommerce, discounts, bogo, bulk pricing, cart discount, coupons, deals, pricing rules
+Tags: woocommerce, discount, bogo, bulk pricing, cart discount
 Requires at least: 5.8
 Tested up to: 6.7
 Requires PHP: 7.4
@@ -8,80 +8,65 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-BOGO deals, bulk pricing, cart discounts, and more. Free forever — no premium upsell.
+BOGO deals, bulk pricing, cart discounts, category discounts, and user role pricing. Free forever — no premium upsell.
 
 == Description ==
 
-**Smart Discount Rules for WooCommerce** is a free alternative to paid discount plugins like Flycart Discount Rules ($59/yr). Create powerful, flexible pricing rules without spending a dime.
+Smart Discount Rules gives you powerful automatic discounts for your WooCommerce store without paying $59/year for premium plugins. Create unlimited rules, schedule them, and let them apply automatically at checkout.
 
-= Rule Types =
+**Rule Types:**
 
-* **Buy One Get One (BOGO)** — Buy X get Y free or at a discount
-* **Bulk Pricing** — Quantity-based tiered pricing (buy 5+ get 10% off, 10+ get 20% off)
-* **Cart Total Discount** — Spend $100+ get $10 off
-* **Category Discount** — All items in a category get X% off
-* **User Role Discount** — Special pricing for wholesale, VIP, or any custom role
+* **BOGO (Buy One Get One)** — Buy X items, get Y free or discounted
+* **Bulk Pricing** — Quantity-based discounts (e.g., buy 5+ get 10% off)
+* **Cart Total** — Spend $100+ and get $10 off the entire cart
+* **Category Discounts** — Discount all items in specific categories
+* **User Role Pricing** — Different prices for wholesale, VIP, or subscriber roles
 
-= Features =
+**Features:**
 
-* **Simple Admin UI** — Custom post type with intuitive meta boxes
-* **Enable/Disable Rules** — Toggle rules on and off instantly
-* **Date Scheduling** — Set start and end dates for promotions
-* **Priority Ordering** — Control which rules apply first
-* **Product Targeting** — Apply to all products or specific ones
-* **Coupon Compatible** — Works alongside existing WooCommerce coupons
-* **Cart Breakdown** — Customers see discount details in their cart
-* **HPOS Compatible** — Works with WooCommerce High-Performance Order Storage
-* **No Premium Upsell** — Every feature is free. Period.
+* Unlimited discount rules
+* Visual rule builder with conditional logic
+* Date-range scheduling for flash sales
+* Priority system to control rule order
+* Strikethrough pricing in cart
+* Discount breakdown in cart totals
+* Works alongside WooCommerce coupons
+* HPOS (High-Performance Order Storage) compatible
+* Translation-ready
+* No premium upsell — everything is free
 
 == Installation ==
 
-1. Upload the plugin files to `/wp-content/plugins/woo-smart-discounts/`, or install through the WordPress plugins screen.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Go to **WooCommerce → Discount Rules** to create your first rule.
+1. Upload the plugin files to `/wp-content/plugins/woo-smart-discounts/` or install through the WordPress plugins screen
+2. Activate the plugin through the 'Plugins' screen
+3. Go to WooCommerce → Discount Rules to create your first rule
 
 == Frequently Asked Questions ==
 
-= Is this really free? No pro version? =
+= Does this work with variable products? =
+Yes. Discounts apply to all product types including simple, variable, and grouped products.
 
-Correct. 100% free. No premium tier. No upsell. We built it because the alternatives are overpriced for what they do.
+= Can I schedule discounts? =
+Yes. Every rule has optional start and end dates for time-limited promotions.
 
-= Can I run multiple rules at once? =
+= Does it work with coupons? =
+Yes. Smart Discount Rules works alongside WooCommerce's built-in coupon system.
 
-Yes. Rules are processed in priority order. You can have BOGO, bulk, and cart rules all active simultaneously.
-
-= Does it work with existing coupons? =
-
-Yes. Smart Discount Rules applies discounts as price adjustments and cart fees, which stack with standard WooCommerce coupons.
-
-= How do I set up bulk pricing? =
-
-Create a new Discount Rule, select "Bulk Pricing", and enter tiers as JSON:
-`[{"min_qty": 5, "discount": 10}, {"min_qty": 10, "discount": 20}]`
-
-This gives 10% off for 5+ items and 20% off for 10+ items.
+= Is there a premium version? =
+No. This plugin is 100% free with no premium upsell, no nag screens, no locked features.
 
 == Screenshots ==
 
-1. Discount rules list with type, status, and schedule
-2. BOGO rule configuration
-3. Bulk pricing tiers setup
-4. Cart showing applied discounts
+1. Creating a BOGO discount rule
+2. Bulk pricing configuration
+3. Discount rules list with status
+4. Cart showing automatic discounts applied
 
 == Changelog ==
 
 = 1.0.0 =
 * Initial release
-* BOGO (Buy One Get One) rules
-* Bulk/tiered pricing rules
-* Cart total discount rules
-* Category-based discount rules
-* User role-based discount rules
-* Date range scheduling
-* Priority ordering
-* HPOS compatibility
-
-== Upgrade Notice ==
-
-= 1.0.0 =
-Initial release of Smart Discount Rules for WooCommerce.
+* BOGO, bulk, cart total, category, and user role discount types
+* Date scheduling and priority system
+* Cart price display with strikethrough
+* Discount summary in cart totals
