@@ -1,0 +1,53 @@
+# Copyright (C) 2026 tinyship.ai
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Discount Rules for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://tinyship.ai/contact/\n"
+"POT-Creation-Date: 2026-02-12 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class-discount-rules.php
+msgid "Discount Rules"
+msgstr ""
+
+#: includes/class-discount-rules.php
+msgid "Discount Rule"
+msgstr ""
+
+#: includes/class-discount-rules.php
+msgid "Rule Configuration"
+msgstr ""
+
+#: includes/class-discount-rules.php
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-discount-rules.php
+msgid "Rule Type"
+msgstr ""
+
+#: includes/class-rule-types.php
+msgid "Buy One Get One (BOGO)"
+msgstr ""
+
+#: includes/class-rule-types.php
+msgid "Bulk Pricing"
+msgstr ""
+
+#: includes/class-rule-types.php
+msgid "Cart Total Discount"
+msgstr ""
+
+#: includes/class-rule-types.php
+msgid "Category Discount"
+msgstr ""
+
+#: includes/class-rule-types.php
+msgid "User Role Discount"
+msgstr ""

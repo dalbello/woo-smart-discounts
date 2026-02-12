@@ -1,0 +1,23 @@
+/**
+ * Smart Discount Rules - Admin Styles
+ *
+ * @package Woo_Smart_Discounts
+ */
+
+.wsd-config-table th {
+    width: 180px;
+    padding: 12px 10px;
+}
+
+.wsd-config-table td {
+    padding: 12px 10px;
+}
+
+.wsd-config-table .description {
+    font-style: italic;
+    color: #666;
+}
+
+.wsd-field {
+    display: none;
+}
